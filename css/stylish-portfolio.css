@@ -1,0 +1,68 @@
+ /* Global Styles */
+
+ html,
+ body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    font-size: 4.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+}
+
+.text-vertical-center h3 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+}
+
+/* Header */
+.header {
+    color: #f8f8f8;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url(../img/alberta_edit.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Intro Divider */
+.intro-divider {
+  width: 500px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/* Custom Button Styles */
+.btn {
+    background-color: #FFF;
+}
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #000;
+}
